@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     return nil
   end
-  
+  binding.pry
   lowest_value_key = nil
   lowest_value = name_hash.first[1]
   
